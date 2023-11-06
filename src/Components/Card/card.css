@@ -1,0 +1,36 @@
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #000;
+    box-shadow: rgb(116 28 28 / 20%) 0 5px 25px;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 25px 10px;
+    min-width: 151px !important;
+    width: calc(162px + 3vw);
+    border: 1px solid #280f0f;
+}
+
+img{
+    border-radius: 6px;
+    width: inherit;
+}
+p{
+    color: #f8f1f1;
+    margin: 0;
+    margin-top: 14px;
+    text-overflow: ellipsis;
+    width: inherit;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.title{
+    font-weight: 600;
+}
+.year{
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+}
