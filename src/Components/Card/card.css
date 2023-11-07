@@ -1,4 +1,4 @@
-.card-container{
+.card-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,12 +12,15 @@
     width: calc(162px + 3vw);
     border: 1px solid #280f0f;
 }
-
-img{
+.card-container:hover {
+    border: 1px solid #5e1919;
+    cursor: pointer;
+}
+img {
     border-radius: 6px;
     width: inherit;
 }
-p{
+p {
     color: #f8f1f1;
     margin: 0;
     margin-top: 14px;
@@ -26,10 +29,11 @@ p{
     overflow: hidden;
     white-space: nowrap;
 }
-.title{
+.title {
+    font-family: 'poppins-light';
     font-weight: 600;
 }
-.year{
+.year {
     font-size: 12px;
     font-weight: 100;
     letter-spacing: 0.2rem;

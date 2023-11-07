@@ -9,9 +9,10 @@ function App() {
       <Header/>
       <div className="container">
         {
-          Movies.map((e) =>{
+          Movies.map((e , idx) =>{
             return (
                 <Card
+                key={idx}
                 img={e.Poster}
                 title={e.Title}
                 year={e.Year}
